@@ -67,10 +67,17 @@ ESOAddonUploaderCli list --author sirinsidiator
 ```
 There are various options to sort and filter the list, as well as to generate a json file for use in other applications. Use `--help` for more details.
 
-### MacOS:
+### Troubleshooting:
+
+#### MacOS:
 You may need to run the following commands first, before the cli can be used:
 ```shell
 sudo xattr -c /Path/To/ESOAddOnUploaderCli.dmg
 sudo xattr -rd com.apple.quarantine /Path/To/ESOAddOnUploaderCli.dmg 
 chmod +x /Path/To/ESOAddOnUploaderCli.dmg
 ```
+
+#### Windows:
+It seems that Windows Command Prompt and older versions of PowerShell do not properly support the text coloring used by the cli.
+It's therefore recommended to use Windows Terminal instead.
+Should that not be possible, you can also set the NO_COLOR environment variable to disable colorized output.
