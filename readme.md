@@ -22,9 +22,9 @@ After you are done, you can use `logout` to invalidate the session on the server
 ESOAddonUploaderCli logout
 ```
 
-[!CAUTION]
-If you plan to run many commands in a row, it's highly recommended to utilize sessions instead of letting the cli implicitly log in and out for each individual command.
-If you log in and out too often in a short period of time you may get rate limited by the server, or "Vault-Tec Security" may even reset your password due to "suspicious activity".
+> [!CAUTION]
+> If you plan to run many commands in a row, it's highly recommended to utilize sessions instead of letting the cli implicitly log in and out for each individual command.
+> If you log in and out too often in a short period of time you may get rate limited by the server, or "Vault-Tec Security" may even reset your password due to "suspicious activity".
 
 #### Uploading an Addon:
 After you have used the `login` command to create a session, or prepared the required credentials in other ways, you can upload an addon.
