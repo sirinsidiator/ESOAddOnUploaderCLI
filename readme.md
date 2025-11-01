@@ -5,7 +5,8 @@ An unofficial command line interface to list, upload or download Elder Scrolls O
 > It is the largest resource for ESO addon development with over a decade of knowledge and an active and friendly community.
 > If you don't know where to start, check out [this thread](https://www.esoui.com/forums/showthread.php?t=9867) with many useful links.
 
-ZOS asked me to keep the source private, so unless that changes, this repo will only be used for issue tracking and uploading releases.
+> [!NOTE]
+> ZOS asked me to keep the source private, so unless that changes, this repo will only be used for issue tracking and uploading releases.
 
 Use `--help` to show all available commands and options.
 
