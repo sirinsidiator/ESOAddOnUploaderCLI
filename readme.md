@@ -38,6 +38,9 @@ After you have used the `login` command to create a session, or prepared the req
 
 At the very least you need to provide a zip archive and an addon id. The id of an addon can either be retrieved with the help of the `list` command, or you can just pass in a url pointing to the addon.
 
+> [!NOTE]
+> Creating a new addon entry is beyond the scope of the CLI and you will have to use the [official GUI](https://forums.elderscrollsonline.com/en/discussion/676627/eso-console-add-ons-developer-uploader-tool/p1) to do so.
+
 If you do not specify version information the cli won't publish the release automatically and you can edit it later via the GUI. You can also specify the `--no-publish` flag to explicitly prevent an upload from being published.
 ```shell
 ESOAddonUploaderCli upload MyAddon.zip --addon-id https://mods.bethesda.net/en/elderscrollsonline/details/12345678-1234-5678-9abc-0123456789ab/MyAddon
